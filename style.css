@@ -1,16 +1,31 @@
 body {
     background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 900px;
+    max-width: 900px;
+}
+
+.photo {
+    border-radius: 500px;
+    border: 0px black;
 }
 
 #title,
 .subtitle,
 .post_title {
-    color: rgb(82, 82, 143);
+    color: black;
+}
+
+#title {
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0px;
+    margin-bottom: 15px;
 }
 
 .post {
@@ -18,4 +33,21 @@ body {
     padding: 10px;
     border: 3px solid black;
     margin: 10px;
+    border-radius: 5px;
+}
+
+.post_content {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.post_image {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 15px;
 }
